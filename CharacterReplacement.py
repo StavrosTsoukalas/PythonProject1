@@ -1,6 +1,7 @@
 #The file EXAMPLE.txt is the default example file used to function the program. Please, replace this file with the text file of your choice.
 fh = open('EXAMPLE.txt','r')
 fhupp = fh.read().upper()
+fh.close()
 
 char = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 charCount = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
